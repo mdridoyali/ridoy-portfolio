@@ -3,4 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Add this to your CSS or use your preferred styling approach */
+.active {
+    color: red; /* Set your desired active link color */
+  }
+  
