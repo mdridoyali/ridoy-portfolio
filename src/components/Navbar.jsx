@@ -57,7 +57,7 @@ const Navbar = () => {
   );
   return (
     <div className="">
-      <div className="navbar fixed max-w-[1349px] md:pt-5   md:-mt-[20px] bg-black opacity-50">
+      <div className="navbar fixed max-w-[1349px] md:pt-5   md:-mt-[20px] bg-white opacity-90">
         <div className="navbar-start pl-10">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -67,7 +67,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a className=" text-3xl font-bold text-white ">Ri<span className="text-amber-500" >doy</span></a>
+          <a className=" text-3xl font-bold  ">Ri<span className="text-amber-500" >doy</span></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

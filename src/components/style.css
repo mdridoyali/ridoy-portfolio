@@ -1,0 +1,15 @@
+/* style.css */
+
+.aboutImg {
+    background-image: url('https://img.freepik.com/premium-photo/close-up-words-with-about-us-web-concept-idea_352439-1318.jpg?size=626&ext=jpg&uid=R119605278&ga=GA1.1.132439167.1700879951&semt=ais');
+    /* object-position: center;  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%; /* Adjust as needed */
+    /* height: 300px;  */
+    /* other styles */
+}
+
+

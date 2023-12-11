@@ -6,7 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App';
-
+import { ThemeProvider } from "@material-tailwind/react";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +18,8 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className='max-w-[1349px] mx-auto'>
-       <RouterProvider router={router} />
+    <ThemeProvider><RouterProvider router={router} /></ThemeProvider>
+       
     </div>
    
   </React.StrictMode>,
