@@ -21,7 +21,7 @@ const Navbar = () => {
           duration={500}
           spy={true}
           activeClass="active"
-          className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
           onClick={() => setActive(!active)}
         >
           Home
@@ -34,10 +34,23 @@ const Navbar = () => {
           duration={500}
           spy={true}
           activeClass="active"
-          className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
           onClick={() => setActive(!active)}
         >
           About
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
+          spy={true}
+          activeClass="active"
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          onClick={() => setActive(!active)}
+        >
+          Skills
         </Link>
       </li>
       <li>
@@ -47,7 +60,7 @@ const Navbar = () => {
           duration={500}
           spy={true}
           activeClass="active"
-          className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
           onClick={() => setActive(!active)}
         >
           Contact
@@ -67,7 +80,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a className=" text-3xl font-bold  ">Ri<span className="text-amber-500" >doy</span></a>
+          <a className=" text-4xl font-bold  ">Ri<span className="text-amber-500" >doy</span></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

@@ -19,10 +19,10 @@ const About = () => {
                     <img className="w-20 rounded-full mx-auto" src={img} alt="" />
                     <Button
                         color="blue"
-                        className="flex justify-center mx-auto"
+                        className="btn outline-none border-none"
                         onClick={handleDownload}
                     >
-                        Download Resume <FaCloudDownloadAlt />
+                        Download Resume <FaCloudDownloadAlt className="text-xl" />
                     </Button>
                 </div>
                 <p className=" flex-1 mt-7 md:mt-0 text-lg text-left">

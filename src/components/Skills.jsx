@@ -17,7 +17,7 @@ import mongodb from "../assets/brand/mongodb.png"
 
 const Skills = () => {
     return (
-        <div className="mb-16">
+        <div id="skills" className="mb-16">
             <Title heading={'My Skills'} />
             <Swiper
                 slidesPerView={6}

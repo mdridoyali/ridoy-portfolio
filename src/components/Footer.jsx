@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <footer className="footer items-center p-7 bg-neutral text-neutral-content">
                 <aside className="items-center grid-flow-col">
-                    <h1 className="text-3xl  font-semibold">Ri<span className="text-amber-500" >doy</span></h1>
+                    <h1 className="text-4xl  font-semibold">Ri<span className="text-amber-500" >doy</span></h1>
                     <div>
                         <p>Copyright © 2023 - All right reserved</p>
                         <div className="flex items-center gap-2"> <FaMailBulk /><p>mdridoyislamr@gmail.com</p></div>

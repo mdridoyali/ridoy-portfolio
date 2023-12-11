@@ -35,7 +35,6 @@ const Contact = () => {
             );
     };
 
-
     return (
 
         <div id="contact" className="mb-16">
@@ -59,7 +58,6 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 
