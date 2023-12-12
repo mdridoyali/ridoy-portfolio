@@ -1,6 +1,7 @@
 import linkedin from "../assets/brand/linkedin.png"
 import fb from "../assets/brand/fb.png"
 import email from "../assets/brand/email.png"
+import github from "../assets/brand/github.png"
 import { FaMailBulk } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -15,11 +16,12 @@ const Footer = () => {
                         <div className="flex items-center gap-2"> <FaMailBulk /><p>mdridoyislamr@gmail.com</p></div>
                     </div>
                 </aside>
-                <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                    <div className="text-xl mt-1 flex items-center gap-2" ><p>Follow Me On</p><FaLongArrowAltRight /></div>
-                    <a href="https://www.linkedin.com/in/md-ridoy-islam-7a3b39280/" ><img className="w-10 h-10  rounded-lg" src={linkedin} /></a>
-                    <a href="https://www.facebook.com/mdridoy.raj.355" ><img className="w-10 h-10 rounded-lg" src={fb} /></a>
-                    <a href="mailto:mdridoyislamr@gmail.com" ><img className="w-10 h-10 rounded-lg" src={email} /></a>
+                <nav className="grid-flow-col gap-3 md:place-self-center md:justify-self-end">
+                    <div className="text-lg mt-1 flex items-center gap-1" ><p>Follow Me On</p><FaLongArrowAltRight /></div>
+                    <a href="https://www.linkedin.com/in/md-ridoy-islam-7a3b39280/" ><img className="w-8 h-8  rounded-lg" src={linkedin} /></a>
+                    <a href="https://www.facebook.com/mdridoy.raj.355" ><img className="w-8 h-8 rounded-lg" src={fb} /></a>
+                    <a href="mailto:mdridoyislamr@gmail.com" ><img className="w-8 h-8 rounded-lg" src={github} /></a>
+                    <a href="https://github.com/mdridoyali" ><img className="w-8 h-8 rounded-lg" src={email} /></a>
                 </nav>
             </footer>
         </div>

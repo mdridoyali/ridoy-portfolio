@@ -2,16 +2,6 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 const Navbar = () => {
   const [active, setActive] = useState(false);
-
-  // const navItems = (
-  //   <>
-  //     <li><Link className="text-white text-xl " to="home" smooth={true} duration={500}>Home</Link></li>
-  //     <li><Link className="text-white text-xl " to="about" smooth={true} duration={500}>About</Link></li>
-  //     <li><Link className="text-white text-xl " to="contact" smooth={true} duration={500}   spy={true}
-  //         activeClass="text-red-500">Contact</Link></li>
-  //   </>
-  // )
-
   const navItems = (
     <>
       <li>
@@ -70,7 +60,7 @@ const Navbar = () => {
   );
   return (
     <div className="">
-      <div className="navbar fixed max-w-[1349px] md:pt-5   md:-mt-[20px] bg-white opacity-90">
+      <div className="navbar fixed max-w-[1349px] md:pt-5   md:-mt-[20px] bg-white opacity-90 z-50">
         <div className="navbar-start pl-10">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
