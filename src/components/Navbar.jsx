@@ -45,6 +45,45 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+          to="project"
+          smooth={true}
+          duration={500}
+          spy={true}
+          activeClass="active"
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          onClick={() => setActive(!active)}
+        >
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="education"
+          smooth={true}
+          duration={500}
+          spy={true}
+          activeClass="active"
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          onClick={() => setActive(!active)}
+        >
+          Educations
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="experience"
+          smooth={true}
+          duration={500}
+          spy={true}
+          activeClass="active"
+          // className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          onClick={() => setActive(!active)}
+        >
+          Experience
+        </Link>
+      </li>
+      <li>
+        <Link
           to="contact"
           smooth={true}
           duration={500}

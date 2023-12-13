@@ -177,7 +177,7 @@ const Skills = () => {
             <div className="md:hidden">
                 <Swiper
                     slidesPerView={3}
-                    spaceBetween={25}
+                    spaceBetween={10}
                     pagination={{
                         clickable: true,
                     }}
@@ -188,7 +188,7 @@ const Skills = () => {
                         <div className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
                             <img className=" w-24 h-20 mx-auto   " src={js} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
-                            <h3 className="text-xl ">JavaScript </h3>
+                            <h3 className="text-xl border ">JavaScript </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -257,32 +257,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-
-
-// const Skills = () => {
-//     const [slidesPerView, setSlidesPerView] = useState(6);
-  
-//     useEffect(() => {
-//       // Update the number of slidesPerView based on the screen width
-//       const updateSlidesPerView = () => {
-//         if (window.innerWidth < 768) {
-//           setSlidesPerView(2);
-//         } else {
-//           setSlidesPerView(6);
-//         }
-//       };
-  
-//       // Initial update
-//       updateSlidesPerView();
-  
-//       // Listen for window resize events
-//       window.addEventListener("resize", updateSlidesPerView);
-  
-//       // Clean up the event listener on component unmount
-//       return () => {
-//         window.removeEventListener("resize", updateSlidesPerView);
-//       };
-//     }, []);
-  

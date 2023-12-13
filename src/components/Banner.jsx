@@ -1,16 +1,20 @@
-import img from "../assets/Ridoy.jpg"
+import img from "../assets/medi/ridoy2.jpg"
 import Typed from 'react-typed';
 
 const Banner = () => {
     return (
-        <div id="home" className="md:flex gap-10 px-2 md:px-20 py-32 bg-gray-100">
+        <div id="home" className="md:flex lg:gap-10 px-2 md:px-20 py-24 bg-gray-100">
             <div className="md:w-1/2 mt-10 mx-auto md:hidden">
-                <div className="flex h-full justify-center items-center ">
-                    <img className="w-60 h-60 rounded-full" src={img} />
+                <div className="flex justify-end items-center ">
+                    <div className="bg-cyan-300 rounded-l-full ">
+                        <div className="bg-cyan-200 my-1 py-1 ml-10 rounded-l-full ">
+                            <img className="w-64 h-64 ml-10 rounded-l-full " src={img} />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="md:w-1/2 mx-auto flex justify-center items-center ">
-                <div className="space-y-5 text-center md:text-left">
+                <div className="space-y-5 text-left">
                     <h1 className=" text-3xl md:text-4xl  font-semibold">
                         <Typed
                             strings={['Hello,<br/> Welcome to my portfolio']}
@@ -29,8 +33,12 @@ const Banner = () => {
                 </div>
             </div>
             <div className="md:w-1/2 mt-10 mx-auto hidden md:block">
-                <div className="flex h-full justify-center items-center ">
-                    <img className="w-60 h-60 rounded-full" src={img} />
+                <div className="flex justify-end items-center ">
+                    <div className="bg-cyan-300 rounded-l-full ">
+                        <div className="bg-cyan-200 my-1 py-1 ml-10 rounded-l-full ">
+                            <img className="w-80 h-80 ml-10 rounded-l-full " src={img} />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -51,7 +51,7 @@ const Contact = () => {
                     <div>
                         <Textarea label="Message" color="indigo" required name="message" />
                     </div>
-                    <Button color="blue" className="btn w-full " type="submit" >Send</Button>
+                    <Button color="blue" className="btn w-full " type="submit" >Send Message</Button>
                 </form>
                 <div className="flex-1">
                     <img src={img} alt="" />

@@ -3,6 +3,7 @@ import img from "../assets/Ridoy.jpg"
 import resumePdf from "../assets/brand/Ridoy's_Resume.pdf"
 import "./style.css"
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import { Link } from "react-scroll";
 const About = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
@@ -16,14 +17,25 @@ const About = () => {
 
             <div className="md:flex justify-between items-center md:px-10 pb-14 ">
                 <div className="w-1/2 mx-auto text-center space-y-5  ">
-                    <img className="w-20 rounded-full mx-auto" src={img} alt="" />
-                    <Button
-                        color="blue"
-                        className="btn outline-none border-none"
-                        onClick={handleDownload}
-                    >
-                        Download Resume <FaCloudDownloadAlt className="text-xl" />
-                    </Button>
+                    <img className="w-24 h-28 rounded-full mx-auto" src={img} alt="" />
+                    <div className="flex justify-center">
+                        <Button
+                            color="blue"
+                            className="btn outline-none border-none  max-w-full rounded-none"
+                            onClick={handleDownload}
+                        >
+                            Download CV <FaCloudDownloadAlt className="text-xl" />
+                        </Button>
+                        <Link
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            className="btn btn-outline text-white  rounded-none rounded-r-lg border-blue-500 border-2 "
+                        >
+                            Contact
+                        </Link>
+                    </div>
                 </div>
                 <p className=" flex-1 mt-7 md:mt-0 text-lg text-left">
                     Hi, I'm Md Ridoy Ali, a passionate and creative Frontend Web Developer.
