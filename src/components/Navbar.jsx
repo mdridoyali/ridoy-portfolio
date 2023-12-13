@@ -100,12 +100,12 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="navbar fixed max-w-[1349px] md:pt-5   md:-mt-[20px] bg-white opacity-90 z-50">
-        <div className="navbar-start pl-10">
+        <div className="navbar-start md:pl-10">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
-            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="menu menu-sm dropdown-content -ml-2 md:-ml-12 rounded-none mt-2 z-[1] p-2 shadow bg-base-100 h-screen w-52">
               {navItems}
             </ul>
           </div>

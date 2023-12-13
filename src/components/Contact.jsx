@@ -37,7 +37,7 @@ const Contact = () => {
 
     return (
 
-        <div id="contact" className="mb-16">
+        <div   data-aos="fade-up" id="contact" className="mb-16">
             <Title heading={'Contact Me'} />
             <Toaster />
             <div className="md:flex md:gap-20 justify-between items-center">

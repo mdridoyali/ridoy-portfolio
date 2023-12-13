@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 const Banner = () => {
     return (
-        <div id="home" className="md:flex lg:gap-10 px-2 md:px-20 py-24 bg-gray-100">
+        <div  data-aos="slide-left"  id="home" className="md:flex lg:gap-10 px-2 md:px-20 py-24 bg-gray-100">
             <div className="md:w-1/2 mt-10 mx-auto md:hidden">
                 <div className="flex justify-end items-center ">
                     <div className="bg-cyan-300 rounded-l-full ">
@@ -29,7 +29,12 @@ const Banner = () => {
                         /> */}
                     </h1>
                     <h2 className="text-2xl ">Front End Web Developer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectssitatibus autem corrupti eveniet enim quibusdam iusto.</p>
+                    <p>
+                        <Typed
+                            strings={[' Versatile Front-End Developer skilled in responsive design, UI/UX, and crafting visually appealing web solutions.']}
+                            typeSpeed={70}
+                        />
+                    </p>
                 </div>
             </div>
             <div className="md:w-1/2 mt-10 mx-auto hidden md:block">

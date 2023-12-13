@@ -16,11 +16,14 @@ import express from "../assets/brand/express.png"
 import mongodb from "../assets/brand/mongodb.png"
 
 const Skills = () => {
+    <script>
+    AOS.init();
+  </script>
     return (
         <div id="skills" className="mb-16">
             <Title heading={'My Skills'} />
             {/* for lg */}
-            <div className="hidden lg:block">
+            <div  data-aos="flip-left"  className="hidden lg:block">
                 <Swiper
                     slidesPerView={6}
                     spaceBetween={25}
@@ -31,7 +34,7 @@ const Skills = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
+                        <div  data-aos="zoom-in" className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
                             <img className=" w-24 h-20 mx-auto   " src={js} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
                             <h3 className="text-xl ">JavaScript </h3>

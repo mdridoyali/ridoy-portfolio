@@ -2,7 +2,7 @@ import Title from "./Title";
 
 const Educations = () => {
     return (
-        <div id="education" className="mb-20">
+        <div   data-aos="fade-up" id="education" className="mb-20">
             <Title heading={'My Educations'} />
             <div className="grid md:grid-cols-2 mt-16 lg:grid-cols-3 gap-10">
                 <div className="rounded-lg  shadow-2xl border hover:bg-blue-700 hover:text-white transition-colors">
