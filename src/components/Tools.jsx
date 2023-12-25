@@ -12,7 +12,7 @@ const Tools = () => {
     return (
         <div className="mb-20 ">
             <Title heading={'Tools Used'} />
-            <div   data-aos="flip-left" className="flex flex-wrap justify-center gap-5 ">
+            <div   data-aos="flip-left" className="flex flex-wrap justify-center gap-5 mt-20 ">
                 <div className="flex items-center justify-center gap-3 border-2 hover:bg-cyan-200 transition border-blue-500 w-40 p-2 rounded-md  -rotate-12 ">
                     <p className="font-semibold text-xl">VS Code</p>
                     <img className="w-12 h-12" src={vsc} alt="" />

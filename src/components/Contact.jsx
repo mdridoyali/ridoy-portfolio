@@ -12,17 +12,22 @@ const Contact = () => {
         e.preventDefault();
 
         // Log form values
-        console.log("Name:", form.current.user_name.value);
-        console.log("Email:", form.current.user_email.value);
-        console.log("Message:", form.current.message.value);
-
+        // console.log("Name:", form.current.user_name.value);
+        // console.log("Email:", form.current.user_email.value);
+        console.log("Message:", form.current);
         emailjs
             .sendForm(
-                "service_ngj61pm",
-                "template_39d1qga",
+                "service_w894j2t",
+                "template_e6kbbk8",
                 form.current,
-                "fYc9OsJqwXNOnP2_w"
+                "Aqh28jQq2xlNjpKZB"
             )
+            // .sendForm(
+            //     "service_ngj61pm",
+            //     "template_39d1qga",
+            //     form.current,
+            //     "fYc9OsJqwXNOnP2_w"
+            // )
             .then(
                 (result) => {
                     toast.success('Message Sent')

@@ -11,6 +11,8 @@ import Tools from "./components/Tools"
 import Projects from "./components/projects"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { ContactUs } from "./components/ContactUs"
+import Achievement from "./components/Achievement"
 
 
 function App() {
@@ -29,8 +31,10 @@ function App() {
         <Projects />
         <Educations />
         <Experience />
+        <Achievement/>
         <Tools />
         <Contact />
+        {/* <ContactUs/> */}
       </div>
       <Footer />
     </div>
