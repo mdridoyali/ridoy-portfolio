@@ -3,12 +3,12 @@ import Typed from 'react-typed';
 
 const Banner = () => {
     return (
-        <div  data-aos="slide-left"  id="home" className="md:flex lg:gap-10 px-2 md:px-20 py-24 bg-gray-100">
+        <div  data-aos="slide-left"  id="home" className="md:flex lg:gap-10 px-2 md:px-20 py-24 md:h-[100vh] bg-gray-100">
             <div className="md:w-1/2 mt-10 mx-auto md:hidden">
                 <div className="flex justify-end items-center ">
                     <div className="bg-cyan-300 rounded-l-full ">
                         <div className="bg-cyan-200 my-1 py-1 ml-10 rounded-l-full ">
-                            <img className="w-64 h-64 ml-10 rounded-l-full " src={img} />
+                            <img className="h-64 w-64 md:w-72 md:h-72  ml-10 rounded-l-full " src={img} />
                         </div>
                     </div>
                 </div>

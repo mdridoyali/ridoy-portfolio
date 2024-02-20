@@ -15,15 +15,16 @@ import node from "../assets/brand/NODE2.png"
 import express from "../assets/brand/express.png"
 import mongodb from "../assets/brand/mongodb.png"
 
+
 const Skills = () => {
     <script>
-    AOS.init();
-  </script>
+        AOS.init();
+    </script>
     return (
         <div id="skills" className="mb-16">
             <Title heading={'My Skills'} />
             {/* for lg */}
-            <div  data-aos="flip-left"  className="hidden lg:block">
+            <div data-aos="flip-left" className="hidden lg:block">
                 <Swiper
                     slidesPerView={6}
                     spaceBetween={25}
@@ -34,64 +35,65 @@ const Skills = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div  data-aos="zoom-in" className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24 h-20 mx-auto   " src={js} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
-                            <h3 className="text-xl ">JavaScript </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-purple-100 hover:bg-purple-200 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={react} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">85%</p>
-                            <h3 className="text-xl ">React </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-light-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={firebase} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
-                            <h3 className="text-xl ">Firebase </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
                         <div className="bg-orange-50 hover:bg-orange-100 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={html} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={html} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">92%</p>
                             <h3 className="text-xl ">HTML5 </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={css} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={css} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
                             <h3 className="text-xl ">CSS3 </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-lime-100  hover:bg-lime-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={tailwind} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={tailwind} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
                             <h3 className="text-xl ">Tailwind </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <div data-aos="zoom-in" className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24 h-24 mx-auto   " src={js} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
+                            <h3 className="text-xl ">JavaScript </h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-purple-100 hover:bg-purple-200 text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24  h-24   mx-auto   " src={react} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">85%</p>
+                            <h3 className="text-xl ">React </h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-light-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24  h-24   mx-auto   " src={firebase} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
+                            <h3 className="text-xl ">Firebase </h3>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
                         <div className="bg-red-100  hover:bg-red-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={node} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={node} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">Node.JS </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-amber-100  hover:bg-amber-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24   h-20  mx-auto   " src={express} />{" "}
+                            <img className=" w-24   h-24  mx-auto   " src={express} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">Express.JS </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-blue-100  hover:bg-blue-200  text-center mb-14 p-5 space-y-4 rounded-lg">
-                            <img className=" w-24   h-20   mx-auto   " src={mongodb} />{" "}
+                            <img className=" w-24   h-24   mx-auto   " src={mongodb} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">MongoDB </h3>
                         </div>
@@ -111,64 +113,65 @@ const Skills = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24 h-20 mx-auto   " src={js} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
-                            <h3 className="text-xl ">JavaScript </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-purple-100 hover:bg-purple-200 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={react} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">85%</p>
-                            <h3 className="text-xl ">React </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-light-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={firebase} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
-                            <h3 className="text-xl ">Firebase </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
                         <div className="bg-orange-50 hover:bg-orange-100 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={html} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={html} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">92%</p>
                             <h3 className="text-xl ">HTML5 </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={css} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={css} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
                             <h3 className="text-xl ">CSS3 </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-lime-100  hover:bg-lime-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={tailwind} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={tailwind} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
                             <h3 className="text-xl ">Tailwind </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <div className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24 h-24 mx-auto   " src={js} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
+                            <h3 className="text-xl ">JavaScript </h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-purple-100 hover:bg-purple-200 text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24  h-24   mx-auto   " src={react} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">85%</p>
+                            <h3 className="text-xl ">React </h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-light-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24  h-24   mx-auto   " src={firebase} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
+                            <h3 className="text-xl ">Firebase </h3>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
                         <div className="bg-red-100  hover:bg-red-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={node} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={node} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">Node.JS </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-amber-100  hover:bg-amber-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24   h-20  mx-auto   " src={express} />{" "}
+                            <img className=" w-24   h-24  mx-auto   " src={express} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">Express.JS </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-blue-100  hover:bg-blue-200  text-center mb-14 p-5 space-y-4 rounded-lg">
-                            <img className=" w-24   h-20   mx-auto   " src={mongodb} />{" "}
+                            <img className=" w-24   h-24   mx-auto   " src={mongodb} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">MongoDB </h3>
                         </div>
@@ -188,64 +191,65 @@ const Skills = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24 h-20 mx-auto   " src={js} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
-                            <h3 className="text-xl border ">JavaScript </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-purple-100 hover:bg-purple-200 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={react} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">85%</p>
-                            <h3 className="text-xl ">React </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="bg-light-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={firebase} />{" "}
-                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
-                            <h3 className="text-xl ">Firebase </h3>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
                         <div className="bg-orange-50 hover:bg-orange-100 text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={html} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={html} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">92%</p>
                             <h3 className="text-xl ">HTML5 </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={css} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={css} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
                             <h3 className="text-xl ">CSS3 </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-lime-100  hover:bg-lime-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={tailwind} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={tailwind} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
                             <h3 className="text-xl ">Tailwind </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <div className="bg-teal-100 hover:bg-teal-200 text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24 h-24 mx-auto   " src={js} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">80%</p>
+                            <h3 className="text-xl border ">JavaScript </h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-purple-100 hover:bg-purple-200 text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24  h-24  mx-auto   " src={react} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">85%</p>
+                            <h3 className="text-xl ">React </h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-light-blue-100 hover:bg-blue-200  text-center p-5 space-y-4 rounded-lg">
+                            <img className=" w-24  h-24   mx-auto   " src={firebase} />{" "}
+                            <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">90%</p>
+                            <h3 className="text-xl ">Firebase </h3>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
                         <div className="bg-red-100  hover:bg-red-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24  h-20   mx-auto   " src={node} />{" "}
+                            <img className=" w-24  h-24   mx-auto   " src={node} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">Node.JS </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-amber-100  hover:bg-amber-200  text-center p-5 space-y-4 rounded-lg">
-                            <img className=" w-24   h-20  mx-auto   " src={express} />{" "}
+                            <img className=" w-24   h-24  mx-auto   " src={express} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">Express.JS </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-blue-100  hover:bg-blue-200  text-center mb-14 p-5 space-y-4 rounded-lg">
-                            <img className=" w-24   h-20   mx-auto   " src={mongodb} />{" "}
+                            <img className=" w-24   h-24   mx-auto   " src={mongodb} />{" "}
                             <p className="bg-blue-400 w-20 p-1 text-center mx-auto text-xl font-bold text-white rounded-md ">70%</p>
                             <h3 className="text-xl ">MongoDB </h3>
                         </div>

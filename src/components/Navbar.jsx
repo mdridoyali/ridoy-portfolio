@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import logo from "../assets/logo.png"
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const navItems = (
@@ -98,9 +99,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="">
-      <div className="navbar fixed max-w-[1349px] md:pt-5   md:-mt-[20px] bg-white opacity-90 z-50">
-        <div className="navbar-start md:pl-10">
+      <div className="navbar border-b fixed max-w-[1700px] md:pt-0 -mt-6  md:-mt-[24px] bg-white opacity-90 z-50">
+        <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -109,15 +109,15 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
+          <img className="w-8" src={logo} alt="" />
           <a className=" text-4xl font-bold  ">Ri<span className="text-amber-500" >doy</span></a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {navItems}
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -17,7 +17,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='max-w-[1349px] mx-auto'>
+    <div className='max-w-[1700px] mx-auto'>
     <ThemeProvider><RouterProvider router={router} /></ThemeProvider>
        
     </div>
